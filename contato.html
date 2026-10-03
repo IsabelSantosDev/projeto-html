@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gole & Sabor | Contato</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+
+        <h1>Entre em Contato</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Fale com a Gole &amp; Sabor</h2>
+            <p>Preencha o formulário abaixo para enviar uma mensagem para nossa loja.</p>
+
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" name="nome" id="nome" placeholder="Seu nome" required><br><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com" required><br><br>
+
+                <label for="assunto">Assunto:</label><br>
+                <input type="text" name="assunto" id="assunto" placeholder="Assunto da mensagem" required><br><br>
+
+                <label for="categoria">Categoria:</label><br>
+                <select name="categoria" id="categoria" required>
+                    <option value="">Selecione uma opção</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="elogio">Elogio</option>
+                    <option value="reclamacao">Reclamação</option>
+                </select><br><br>
+
+                <label for="comentário">Comentário:</label><br>
+                <textarea name="comentário" id="comentário" placeholder="Digite seu comentário aqui..." required></textarea><br><br>
+
+                <button type="submit">Enviar mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Gole &amp; Sabor. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
