@@ -24,5 +24,5 @@ Praticar conceitos fundamentais de HTML5, como:
 ## Tecnologias
 
 - HTML5
-- CSS (Inline)
+- CSS (Interno)
 - Git e GitHub (Para versionamento)
